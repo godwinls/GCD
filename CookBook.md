@@ -97,4 +97,5 @@ The tidy data set get from this run_analysis.R script includes the average of ea
 * Add "Subject" and "Activity" two columns to the data set
 * remove the "(" and ")" in the label names
 * Using ddply() to create the tidy data set with the average of each variable for each activity and each subject.
+* Add ".AVG" to the data set column names
 * write to the txt file
