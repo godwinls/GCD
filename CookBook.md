@@ -55,10 +55,10 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 ## The Tidy data set
 
 The tidy data set get from this run_analysis.R script includes the average of each measured variable for each activity and each subject as following:
- 
- [1] "Subject"                                "Activity"                               "tBodyAcc-mean-X.AVG"                   
- [4] "tBodyAcc-mean-Y.AVG"                    "tBodyAcc-mean-Z.AVG"                    "tBodyAcc-std-X.AVG"                    
- [7] "tBodyAcc-std-Y.AVG"                     "tBodyAcc-std-Z.AVG"                     "tGravityAcc-mean-X.AVG"                
+ ------------------------------------|------------------------------------------|----------------------------------------
+ [1] "Subject"                       |         "Activity"                       |        "tBodyAcc-mean-X.AVG"                   
+ [4] "tBodyAcc-mean-Y.AVG"           |         "tBodyAcc-mean-Z.AVG"            |        "tBodyAcc-std-X.AVG"                    
+ [7] "tBodyAcc-std-Y.AVG"            |         "tBodyAcc-std-Z.AVG"             |        "tGravityAcc-mean-X.AVG"                
 [10] "tGravityAcc-mean-Y.AVG"                 "tGravityAcc-mean-Z.AVG"                 "tGravityAcc-std-X.AVG"                 
 [13] "tGravityAcc-std-Y.AVG"                  "tGravityAcc-std-Z.AVG"                  "tBodyAccJerk-mean-X.AVG"               
 [16] "tBodyAccJerk-mean-Y.AVG"                "tBodyAccJerk-mean-Z.AVG"                "tBodyAccJerk-std-X.AVG"                
@@ -86,3 +86,5 @@ The tidy data set get from this run_analysis.R script includes the average of ea
 [82] "angletBodyAccMean,gravity.AVG"          "angletBodyAccJerkMean,gravityMean.AVG"  "angletBodyGyroMean,gravityMean.AVG"    
 [85] "angletBodyGyroJerkMean,gravityMean.AVG" "angleX,gravityMean.AVG"                 "angleY,gravityMean.AVG"                
 [88] "angleZ,gravityMean.AVG"
+
+##Transformation from 
