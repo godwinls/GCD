@@ -88,4 +88,13 @@ The tidy data set get from this run_analysis.R script includes the average of ea
 [85] "angletBodyGyroJerkMean,gravityMean.AVG" "angleX,gravityMean.AVG"                 "angleY,gravityMean.AVG"                
 [88] "angleZ,gravityMean.AVG"
 
-##Transformation from 
+## Processing
+
+* Merges the training and the test sets to create one data set.
+* put all the data in one data frame
+* get the column names and assign them to the data set
+* Extracts only the measurements on the mean and standard deviation for each measurement. 
+* Add "Subject" and "Activity" two columns to the data set
+* remove the "(" and ")" in the label names
+* Using ddply() to create the tidy data set with the average of each variable for each activity and each subject.
+* write to the txt file
