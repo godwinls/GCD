@@ -88,6 +88,7 @@ The tidy data set get from this run_analysis.R script includes the average of ea
 [85] "angletBodyGyroJerkMean,gravityMean.AVG" "angleX,gravityMean.AVG"                 "angleY,gravityMean.AVG"                
 [88] "angleZ,gravityMean.AVG"
 
+In the tidy data set. "Acc" stands for "accelerometer". "Gyro" stands for "gyroscope". "Mag" stands for "Magnitudes". The "t-" prefix stands for "time domain", the "f-" prefix stands for "frequency domain". The ".AVG" means it's the average value.
 ## Processing
 
 * Merges the training and the test sets to create one data set.
